@@ -1,6 +1,5 @@
 /*  creare una todo list che permatta di aggiungere (tramite campo input) e rimuovere gli elementi!
  */
-
  // 1. inizializzo array lista della spesa
 var listaSpesa = [
   "Comprare il latte",
@@ -8,7 +7,6 @@ var listaSpesa = [
   "Comprare i pomodori",
   "Comprare i salumi"
 ];
-
 // 2. clono il template per aggiungere le altre voci alla lista
 for ( var i = 0; i < listaSpesa.length; i++){
   var template = $(".template li").clone();
@@ -16,8 +14,6 @@ for ( var i = 0; i < listaSpesa.length; i++){
   template.prepend(listaSpesa[i]);
   $(".todo-list").append(template);
 }
-
-
 // 3. inizializzo una funzione per aggiungere elementi alla lista attravero l'input
 $("#add").keydown(function(event){
   if (event.which == 13){

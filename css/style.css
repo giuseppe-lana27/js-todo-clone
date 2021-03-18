@@ -1,14 +1,32 @@
+/* reset */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* mix */
 body{
   font-family: 'Lato', sans-serif;
+  background-color: #ffebcd;
+}
+.container{
+  width: 800px;
+  margin: auto;
+}
+/* corpo pagina */
+header{
+  margin: 40px 0;
+  text-align: center;
+}
+.shopp-img{
+  height: 50px;
+  margin-right: 10px;
+}
+.title{
+  display: inline-block;
 }
 .list{
-  width: 800px;
-  margin: 30px auto;
+  margin: 30px 0;
 }
 .todo-list{
   margin-top: 20px;
@@ -30,9 +48,18 @@ body{
 }
 #add{
   width: 30%;
+  height: 30px;
   margin-left: 10px;
+  border-radius: 10px;
 }
-
+#add:focus{
+  outline: none;
+}
 .template{
   display: none;
+}
+/* footer */
+.greeting{
+  margin-top: 10px;
+  text-align: center;
 }

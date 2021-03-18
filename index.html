@@ -16,20 +16,39 @@
     <title>To Do List</title>
   </head>
   <body>
-    <div class="list">
-      <h1>La tua lista della spesa:</h1>
-      <ul class="todo-list">
-        <li>Comprare il pane <span class="list-elemtent_delete">X</span></li>
-      </ul>
-
-      <div class="add-element">
-        <label for="add">Aggiungi Elemento alla lista:</label>
-        <input type="text" id="add" placeholder="Aggiungi il nuovo elemento">
-      </div>
-    </div>
-
-    <div class="template">
-      <li><span class="list-elemtent_delete">X</span></li>
+    <div class="container">
+      <!-- intestazione pagina -->
+      <header>
+        <img src="img/shopping.png" alt="carrello spesa" class="shopp-img">
+        <h1 class="title">La tua lista della spesa:</h1>
+      </header>
+      <!-- /intestazione pagina -->
+      <!-- corpo pagina -->
+      <main>
+        <div class="list">
+          <!-- Lista della spesa -->
+          <ul class="todo-list">
+            <li>Comprare il pane <span class="list-elemtent_delete">X</span></li>
+          </ul>
+          <!-- /Lista della spesa -->
+          <!-- input per aggiungere elementi alla lista -->
+          <div class="add-element">
+            <label for="add">Aggiungi Elemento alla lista:</label>
+            <input type="text" id="add" placeholder="Aggiungi il nuovo elemento">
+          </div>
+        </div>
+        <!-- /input per aggiungere elementi alla lista -->
+        <div class="template">
+          <li><span class="list-elemtent_delete">X</span></li>
+        </div>
+      </main>
+      <!-- /corpo pagina -->
+      <!-- footer -->
+      <footer>
+        <h5>Se hai bisogno di aggiungere qualcosa alla lista usa il campo input qui sopra, e non dimenticare di eliminare ciò che hai già nel carrello.</h5>
+        <h5 class="greeting">Buona spesa da Boolean</h5>
+      </footer>
+      <!-- /footer -->
     </div>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
