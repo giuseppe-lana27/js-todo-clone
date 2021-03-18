@@ -16,6 +16,15 @@
 .list-elemtent_delete{
   margin-left: 10px;
 }
+.add-element{
+  margin-top: 20px;
+  padding: 10px;
+}
+#add{
+  width: 30%;
+  margin-left: 10px;
+}
+
 .template{
   display: none;
 }
