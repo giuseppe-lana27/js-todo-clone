@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list{
+  width: 800px;
+  margin: 30px auto;
+}
+.todo-list{
+  margin-top: 20px;
+}
+.todo-list li{
+  margin-top: 10px;
+}
+.list-elemtent_delete{
+  margin-left: 10px;
+}
+.template{
+  display: none;
+}
