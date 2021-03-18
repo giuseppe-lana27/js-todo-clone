@@ -26,8 +26,13 @@ $("#add").keydown(function(event){
       var template = $(".template li").clone();
       template.prepend(element);
       $(".todo-list").append(template);
-      $(this).val(" ");  
+      $(this).val(" ");
     }
   }
+}
+);
+// 4. creo la funzione per eliminare gli elementi dalla lista
+$(".todo-list").on('click', '.list-elemtent_delete', function(){
+  $(this).parent().remove();
 }
 );
